@@ -8,13 +8,15 @@
 
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	
 </head>
 <body>
 	<header>
 		<div class="menu">
 			<ul class="ul-menu">
-				<li><a href="">home</a></li>
-				<li><a href="">design</a></li>
+				<li><a href="#">home</a></li>
+				<li><a href="#">design</a></li>
 				<li><ul class="ul-menu-two">
 					<li>fima</li>
 					<ul class="ul-menu-three">	
@@ -32,9 +34,24 @@
 						<li>e</li>
 					</ul>
 				</ul></li>
-				<li><a href="">about</a></li>
-				<li><a href="">contact</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">contact</a></li>
 			</ul>
+
+			<ul class="animate__animated animate__fadeIn ul-menu-phone" id="myLinks">
+				<li><a href="#">home</a></li>
+				<li><a href="#">design</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+			
+			<div class="burger" id="menu">
+				<div class="burger-1"></div>
+				<div class="burger-2"></div>
+				<div class="burger-3"></div>
+			</div>	
+			
+
 		</div>
 		<div class="inner">
 			<div class="container">
@@ -76,10 +93,10 @@
 
 		<div class="main-block-1">
 			<div class="con">
-			<div class="block-info">
+			<div class="animate__animated animate__bounceInLeft block-info ">
 				<h2 class="main-title">Summer Fashion</h2>
 				<p class="main-title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id metus ut urna dictum accumsan id ut nulla.</p>
-				<a class="main-title-button">Discover   &#10230</a>
+				<a href="#" class="main-title-button">Discover   &#10230</a>
 			</div>
 			<img src="img/main-2.jpg" >
 			</div>
@@ -105,10 +122,10 @@
 
 		<div class="main-block-3">
 			<div class="con">
-			<div class="block-info">
+			<div class="animate__animated animate__bounceInLeft block-info-1 ">
 				<h2 class="main-title">Winter Fashion</h2>
 				<p class="main-title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id metus ut urna dictum accumsan id ut nulla.</p>
-				<a class="main-title-button">Discover   &#10230</a>
+				<a href="#" class="main-title-button">Discover   &#10230</a>
 			</div>
 			<img src="img/main-4.jpg" >
 			</div>
@@ -131,6 +148,7 @@
 		</div>
 	</footer>
 	
+	<script src="js/burger.js"></script>
 </body>
 
 </html>

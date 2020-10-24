@@ -11,6 +11,10 @@ header
 }
 
 
+.ul-menu-phone
+{
+	display: none;
+}
 
 .menu
 {
@@ -20,7 +24,7 @@ header
 	width: 81.88%;
 	text-align: center;
 	margin: 0 9% 0 9%;
-	z-index: 10;
+	z-index: 9999999;
 
 
 /*1685*/
@@ -334,7 +338,17 @@ main
 	padding-top: 20%;
     margin-left: 11.1%;
     width: 24.5%;
-	display: inline-block;
+	display: none;
+	position: absolute;
+	
+}
+
+.block-info-1
+{
+	padding-top: 20%;
+    margin-left: 11.1%;
+    width: 24.5%;
+	display: none;
 	position: absolute;
 }
 .main-block-1 img
@@ -370,6 +384,9 @@ main
 	font-weight: 700;
 	font-size: 14px;
 	color: #000000;
+	position: absolute;
+    z-index: 9999999;
+    text-decoration: none;
 }
 
 
@@ -559,7 +576,7 @@ footer
 
 @media (max-width: 900px)
 {
-	.block-info
+.block-info
 {
 	
 	padding-top: 14%;
@@ -760,6 +777,16 @@ header {
     position: absolute;
 }
 
+.block-info-1
+{
+	 padding-top: 105%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 89%;
+    display: inline-block;
+    position: absolute;
+}
+
 .main-block-1 img {
     float: right;
     right: 0;
@@ -788,6 +815,9 @@ header {
     font-size: 16px;
     color: #000000;
     padding-left: 37%;
+    position: absolute;
+    z-index: 9999999;
+    text-decoration: none;
 }
 
 .main-block-2 {
@@ -894,7 +924,98 @@ footer form {
     margin-bottom: 16px;
 }
 
+.ul-menu-two li {
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #3f2f35;
+    font-size: calc(1.8em + 3.8vw);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
+.ul-menu-three li {
+    flex: 1 10%;
+    font-size: calc(0.3em + 1vw);
+    text-transform: uppercase;
+    color: #3f2f35;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.ul-menu-two
+{
+	position: absolute;
+	left: 0;
+}
+
+.ul-menu-phone
+{
+	display: none;
+	flex-direction: row;
+	position: absolute;
+	left: 0;
+    top: 17%;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+
+
+.ul-menu-phone li
+{
+	font-size: calc(0.4em + 1.4vw);
+	padding: 4.7%;
+	font-family: 'Josefin Slab', serif;
+	padding-top: 2%;
+}
+
+.ul-menu
+{
 	
+}
+
+.ul-menu-phone li a
+{
+	font-weight: 400;
+	color: #3f2f35;
+	text-decoration: none;
+}
+
+.burger
+{
+    cursor: pointer;
+	position: absolute;
+	right: 0;
+    top: 12%;
+    width: 23px;
+    height: 23px;
+    z-index: 1000000;
+    
+}
+
+
+ 	
+
+.burger-1, .burger-2, .burger-3
+{
+	cursor: pointer;
+	width: 23px;
+	height: 3px;
+	background-color: black;
+	margin: 0;
+	margin-top: 4px;
+	transition: 0.4s;
+	margin-bottom: 0;
+}
+}
+
+@media (min-width: 500px)
+{
+	#myLinks
+	{
+		display: none;
+	}
+}
+
 
