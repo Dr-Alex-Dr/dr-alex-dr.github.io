@@ -1,0 +1,276 @@
+@media (max-width: 1225px){
+	.services__items{
+		display: block;
+	}
+	.services__item{
+		min-height: 340px;
+		max-width: none;
+		width: 80%;
+		margin: 40px auto;
+	}
+	.form__inner {
+    	background-image: none;
+	}
+	.form__box {
+   		margin: 0 auto;
+	}
+	.news__inner{
+		display: block;
+		text-align: center;
+	}
+	.news__slider{
+		margin: 0 auto;
+	}
+	.news__blog {
+		margin: 20px auto;
+   		max-width: 555px;
+	}
+	.news__date{
+		left: 160px;
+	}
+}
+@media (max-width: 1050px){
+	.advantages__inner{
+		display: block;
+	}
+	.advantages__item {
+		max-width: none;
+    	margin: 76px auto;
+    	text-align: center;
+	}
+	.footer__map{
+		display: none;
+	}
+	.footer__inner{
+		justify-content: center;
+	}
+	.footer__info{
+		text-align: center;
+	}
+	.footer__mobile:before{
+		left: 90px;
+	}
+	.footer__email:before{
+		left: 90px;
+	}
+	.footer__location:before{
+		left: 90px;
+	}
+}
+
+@media (max-width: 900px){
+	.slider__item
+	{
+		padding-left: 30px;
+   		padding-right: 30px;
+	}
+	.services__top{
+		display: block;
+	
+	}
+	.services__title-box{
+		padding-left: 0;
+	}
+	.services__title-box:before,
+.form__title-box:before,
+.news__title-box:before{
+	content: none;
+	position: absolute;
+	width: 105px;
+	height: 2px;
+	background-color: #ffc222;
+	left: 0;
+	top: 11px;
+}
+	.services__btn{
+		margin-top: 30px;
+	}
+	.about__inner {
+    	text-align: center;
+    	margin: 0 auto;
+
+	}
+	.form__box-inner{
+		display: block;
+	}
+	.form__box-left{
+		max-width: 555px;
+		width: 100%;
+	}
+	.form__box-inner input {	
+    	height: 45px;
+	}
+	.form__box-left{
+		margin: 0 auto;
+	}
+	.form__box-inner select {
+    	height: 45px;   
+	}
+ 	.form__title-box{
+ 		text-align: center;
+ 		margin: 0 auto;
+ 		padding-left: 0px;
+ 	}
+ 	.form__box-right {
+    	margin: 0 auto;
+	}
+	.form__box-inner button {
+    	float: left;
+    	width: 100%;
+	}
+	.form__inner{
+		padding-bottom: 80px;
+	}
+	.news__blog {
+   		max-width: 555px;
+	}
+	.news__title-box{
+		padding-left: 0;
+	}
+	.news__top{
+		display: block;
+	}
+	.news__btn{
+		margin-top: 30px;
+	}
+	.news__slider-prev-btn, .news__slider-next-btn {
+		display: none;
+	}
+	.footer ymaps{
+		display: none;
+	}
+}
+
+@media (max-width: 700px){
+	.header__btn {
+		float: none;
+		display: block;
+	}
+	.header__top{
+		text-align: center;
+	}
+	.header__btn:before{
+		content: "";
+	}
+	.header__btn-menu{
+		display: block;
+	}
+	.menu ul{
+		display: none;
+		position: absolute;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	}
+	.menu li{
+		display: block;
+	}
+	.menu a{
+		display: block;
+		background-color: #ffc222;
+	}
+	.menu li + li{
+		padding-left: 0;
+		border-top: 1px solid #fff;
+	}
+	.slider__item
+	{
+		padding-left: 0px;
+   		padding-right: 0px;
+	}
+	.slider__prev-btn,
+	.slider__next-btn{
+		display: none;
+	}
+	.services__items{
+		display: block;
+	}
+	.services__item{
+		min-height: 340px;
+		max-width: none;
+		width: 100%;
+		margin: 40px auto;
+	}
+}
+@media (max-width: 600px){
+	.services__top{
+		display: block;
+		text-align: center;
+	}
+	.news__date{
+		display: none;
+	}
+}
+@media (max-width: 550px){
+	.news__top{
+		display: block;
+		text-align: center;
+	}
+	.news__slider-item{
+		min-width: 100% !important;
+	}
+}
+@media (max-width: 414px){
+	.slider__text{
+		font-size: 16px;
+	}
+	.slider__title{
+		font-size: 24px;
+	}
+	.services {
+    	padding: 50px 10px;
+	}
+}
+@media (max-width: 400px){
+	.footer__mobile:before{
+		left: 25%;
+	}
+	.footer__email:before{
+		left: 25%;
+	}
+	.footer__location:before{
+		left: 25%;
+	}
+}
+
+@media (max-width: 375px){
+	.header__email{
+    	padding-right: 30px;
+	}
+	.header__btn{
+		display: block;
+	}
+	.header__btn:before{
+		content: "\f0b1";
+	}
+	.services {
+   		padding: 50px 0px;
+	}
+	.form__box-inner button {
+    	float: left;
+    	width: 100%;
+	}
+}
+
+@media (max-width: 350px){
+	.footer__mobile:before{
+		left: 22%;
+	}
+	.footer__email:before{
+		left: 22%;
+	}
+	.footer__location:before{
+		left: 22%;
+	}
+}
+
+
+@media (min-width: 700px){
+	.menu ul {
+		display: block !important;
+	}
+	.map{
+		display: none;
+	}
+}
+
