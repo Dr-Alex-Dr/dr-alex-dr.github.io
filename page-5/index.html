@@ -12,10 +12,15 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__inner">
+            <div class="menu-mobile">
+                <div class="menu-mobile-item"></div>
+                <div class="menu-mobile-item"></div>
+                <div class="menu-mobile-item show"></div>
+            </div>
+            <div class="header__inner ">
                 <a class="logo" href="#">
                     <picture>
-                        <source srcset="images/logo-mobile.png" media="(max-width: 640px)">
+                        <source srcset="images/logo-mobile.png" media="(max-width: 1200px)">
                         <img src="images/logo.png" alt="">
                     </picture>
                 </a>
@@ -40,16 +45,44 @@
                 </nav>
                 <div class="header__info">
                     <button class="header__btn">купить</button>
-                    <a  class="header__phone" href="tel:80505676767">8 (050) 567 67 67</a>
+                    <a  class="header__phone d-none" href="tel:80505676767">8 (050) 567 67 67</a>
+                </div>
+                
+            </div>
+
+            <div class="header__inner-mobile hide">
+                <nav class="menu__mobile">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">О ДРОНЕ</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">ПРЕИМУЩЕСТВА</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">ХАРАКТЕРИСТИКИ</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">ВОПРОСЫ</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__info">
+                    <a class="header__phone ml-30" href="tel:80505676767">8 (050) 567 67 67</a>
                 </div>
             </div>
         </div>
+
+        
     </header>
 
-    <section class="page-section top">
+     <section class="page-section top">
         <div class="page-section__wrapper top__wrapper">
         <div class="container">
-            <div class="top__inner">
+            <div class="top__inner show-f">
                 <h1 class="top__title">Mavic 2 Pro</h1>
                 <img src="images/mavic.png" alt="">
                 <p class="top__text">Квадрокоптер Dji Mavic 2 Pro с профессиональной камерой Hasselblad</p>
@@ -77,6 +110,7 @@
     </div>
     </section>
 
+
     <section id="products" class="page-section products">
         <div class="page-section__wrapper">
         <div class="container">
@@ -95,7 +129,7 @@
                         технология аэросъемки</p>
                     <div class="products__slider">
                         <div class="products__slider-item">
-                            <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>
+                            <img src="images/slider-1.jpg" alt="" class="products__slider-img" width="200px"></div>
                         <div class="products__slider-item">
                             <img src="images/slider-1.jpg" alt="" class="products__slider-img"></div>  
                         <div class="products__slider-item">
@@ -114,6 +148,7 @@
         </div>
     </section>
 
+ 
     <section id="benefits" class="page-section benefits">
         <div class="page-section__wrapper">
         <div class="container">
@@ -310,7 +345,7 @@
             </div>
         </div>
         </div>
-    </section>
+    </section>  
 
     
  

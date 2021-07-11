@@ -12,3 +12,42 @@ $(function(){
     });
 });
 
+let burger = document.querySelector('.menu-mobile');
+let menu = document.querySelector('.header__inner-mobile');
+let topInner = document.querySelector('.top__inner');
+let headerInner = document.querySelector('.header__inner');
+
+let menuItem = document.querySelectorAll('.menu-mobile-item');
+
+
+let i = 1;
+
+burger.addEventListener('click', () => {
+    menuItem[2].classList.toggle('show');
+    menuItem[0].classList.toggle('item-up');
+    menuItem[1].classList.toggle('item-down');
+    menu.classList.toggle('hide');
+    menu.classList.toggle('active');
+    
+    if (document.documentElement.scrollTop > 60){
+        headerInner.classList.toggle('trans');
+        headerInner.classList.toggle('bg');
+    }
+    
+    
+});
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60)
+    {
+        headerInner.classList.add('bg');
+        headerInner.classList.remove('trans');
+    } else{
+        headerInner.classList.add('trans');
+        headerInner.classList.remove('bg');
+    }
+   
+   
+    
+
+}
