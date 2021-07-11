@@ -1380,6 +1380,13 @@ body, .top__text, .contacts__info-phone, .contacts__info-email, .contacts__form-
 }
 
 @media (max-width: 576px) {
+  .contacts__form-input {
+    min-width: 100%;
+  }
+  .benefits__item {
+    display: flex;
+    align-items: flex-start;
+  }
   .page-section__wrapper .scroll__btn {
     display: none;
   }
@@ -1428,25 +1435,15 @@ body, .top__text, .contacts__info-phone, .contacts__info-email, .contacts__form-
   .benefits__item:nth-child(1) {
     margin-top: 40px;
   }
-  .benefits__item .benefits__info {
-    margin: 0 auto;
-  }
-  .benefits__item .benefits__img {
-    margin: 0 auto;
-  }
-  .benefits__info-title {
-    width: 100%;
-    text-align: center;
-  }
-  .benefits__info-text {
-    text-align: center;
-  }
   .benefits__info {
     padding-top: 15px;
     width: 100%;
   }
   .benefits__num {
     display: none;
+  }
+  .benefits__img {
+    margin-left: 30px;
   }
   .specification__box-title {
     font-size: 20px;
@@ -1469,5 +1466,8 @@ body, .top__text, .contacts__info-phone, .contacts__info-email, .contacts__form-
   }
   .questions__item-text {
     padding: 0 5px 45px 20px;
+  }
+  .top__inner {
+    padding-bottom: 55px;
   }
 }
